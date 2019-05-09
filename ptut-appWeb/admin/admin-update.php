@@ -82,10 +82,8 @@
             </div>
           </div>
         </div>
-    </div>
-  </div>
+</body>
 <script src="./js/Jquery.js"></script>
 <script src="./js/admin.js"></script>
 <script src="./../assets/boostrap/js/bootstrap.js"></script>
-</body>
 </html>

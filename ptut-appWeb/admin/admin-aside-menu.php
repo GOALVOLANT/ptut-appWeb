@@ -18,4 +18,4 @@ $req->closeCursor();
 
         <form method="post"><input type="submit" class="btn btn-primary" name="deco" value="Deconnexion"></form>
     </nav>
-    <div class="container" style="margin-left: 256px;">
+    <div class="container" style="margin-left: 30%;">
