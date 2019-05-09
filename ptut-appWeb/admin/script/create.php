@@ -27,7 +27,7 @@ include ('./../bdd/boostrap.php');
       
       $sqlp="INSERT INTO `possibilitee` (`possibilitee`,idQuestion) VALUES ('$poss','$lastid')";
 
-      $stmt = $dbh->prepare( $sqlp );
+      $stmtp = $dbh->prepare( $sqlp );
       $stmtp->execute();
     }
     header('Location:./../admin-create.php');

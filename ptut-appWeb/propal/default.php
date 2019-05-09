@@ -1,7 +1,7 @@
 <div class="form-group row">
   <label class=" col-form-label">Question : <?php echo $count ?></label>
   <div class="col-sm-12">
-    <div><?php echo $libelquestion ?></div>
+    <?php echo $libelquestion ?></div>
 
 <?php
 $sqll = "SELECT *  FROM possibilitee WHERE idQuestion=".$idQuestion.""; 

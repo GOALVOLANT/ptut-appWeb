@@ -10,11 +10,13 @@ echo " <div class=\"form-group row\">
           
           foreach ($possibilitees as $possibilitee) {
             
-            $libelPossibilitee=$possibilitee['possibilitee'];}
+            $libelPossibilitee=$possibilitee['possibilitee'];
 
             echo "  <div class=\"form-check form-check-inline\">
                       <input class=\"form-check-input\" type=\"radio\" name=".$idQuestion." value=\"".$libelPossibilitee."\">
                       <label class=\"form-check-label\">".$libelPossibilitee."</label>
                     </div>";
+
+          }
  ?>
 </div>
